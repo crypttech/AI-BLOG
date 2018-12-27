@@ -12,6 +12,7 @@ y_train = np.load("train_label.npy")
 X_test = np.load("test_data.npy")
 y_test = np.load("test_label.npy")
 
+
 # Validation set split parameters
 validation_rate = 0.3
 validation_size = int(len(y_test)*0.3)
